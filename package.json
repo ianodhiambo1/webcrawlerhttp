@@ -1,0 +1,23 @@
+{
+  "name": "webcrawlerhttp",
+  "version": "1.0.0",
+  "description": "This is a project for discovering the fundamentals behind HTTP concepts. It is a learning project.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianodhiambo1/webcrawlerhttp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianodhiambo1/webcrawlerhttp/issues"
+  },
+  "homepage": "https://github.com/ianodhiambo1/webcrawlerhttp#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
