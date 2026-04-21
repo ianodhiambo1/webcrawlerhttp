@@ -4,7 +4,7 @@
   "description": "This is a project for discovering the fundamentals behind HTTP concepts. It is a learning project.",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",
+    "start": "node --no-warnings main.js",
     "test": "jest"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/ianodhiambo1/webcrawlerhttp#readme",
   "devDependencies": {
     "jest": "^30.3.0"
+  },
+  "dependencies": {
+    "jsdom": "^20.0.3"
   }
 }
